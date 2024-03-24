@@ -1,0 +1,20 @@
+/* .bg{
+    height: 500px;
+
+
+    background-image: url(../pexels-vurzie-kim-20160457.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+} */
+
+.bg-box{
+    height: 770px;
+
+
+    background-image: url("../img/hause.webp"), url("../img/grass.png"), url("../img/lamp.png"), url("../img/hedgehock.webp"), url("../img/donut.png"); 
+    background-size: 680px auto, 300px auto, 50px auto, 50px auto, 50px auto;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: center, bottom, top, left, right;
+    background-color: darkgreen;
+}
